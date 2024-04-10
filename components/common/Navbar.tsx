@@ -9,9 +9,9 @@ import Image from "next/image";
 import BubbleTextImage from "../public/bubble-logotipo.svg";
 import BubbleMobileImage from "../public/bubble-logo.svg";
 
-import { Button } from "./ui/button";
-import { ThemeToggle } from "./theme/ThemeToggle";
-import { UserDropdown } from "./user/UserDropdown";
+import { Button } from "../ui/button";
+import { ThemeToggle } from "../theme/ThemeToggle";
+import { UserDropdown } from "../user/UserDropdown";
 
 export async function Navbar() {
   const { getUser } = getKindeServerSession();
