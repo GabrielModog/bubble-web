@@ -1,0 +1,4 @@
+text=lf
+  *.* linguist-vendored eol=lf
+  .* linguist-vendored eol=lf
+  CHANGELOG.md export-ignore
