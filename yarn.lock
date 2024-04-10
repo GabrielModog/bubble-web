@@ -1122,6 +1122,11 @@
   resolved "https://registry.yarnpkg.com/@pkgjs/parseargs/-/parseargs-0.11.0.tgz#a77ea742fab25775145434eb1d2328cf5013ac33"
   integrity sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==
 
+"@popperjs/core@^2.9.0":
+  version "2.11.8"
+  resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.8.tgz#6b79032e760a0899cd4204710beede972a3a185f"
+  integrity sha512-P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A==
+
 "@prisma/client@^5.12.1":
   version "5.12.1"
   resolved "https://registry.yarnpkg.com/@prisma/client/-/client-5.12.1.tgz#c26a674fea76754b3a9e8b90a11e617f90212f76"
@@ -1459,6 +1464,33 @@
   integrity sha512-E4KcWTpoLHqwPHLxidpOqQbcrZVgi0rsmmZXUle1jXmJfuIf/UWpczUJ7MZZ5tlxytgJXyp0w4PGkkeLiuIdZw==
   dependencies:
     tslib "^2.4.0"
+
+"@tiptap/extension-bubble-menu@^2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@tiptap/extension-bubble-menu/-/extension-bubble-menu-2.3.0.tgz#3447dcc68aaaa76c8327cb636976164986b270c7"
+  integrity sha512-dqyfQ8idTlhapvt0fxCGvkyjw92pBEwPqmkJ01h3EE8wTh53j0ytOHyMSf1KBuzardxpd8Yya3zlrAcR0Z3DlQ==
+  dependencies:
+    tippy.js "^6.3.7"
+
+"@tiptap/extension-floating-menu@^2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@tiptap/extension-floating-menu/-/extension-floating-menu-2.3.0.tgz#ac61ffeac479cdf019a270d23464fd08af6ab931"
+  integrity sha512-bNY43/yU/+wGfmk2eDV7EPDAN/akbC+YnSKTA5VPJADzscvlrL2HlQrxbd/STIdlwKqdPU5MokcvCChhfZ4f6w==
+  dependencies:
+    tippy.js "^6.3.7"
+
+"@tiptap/react@^2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@tiptap/react/-/react-2.3.0.tgz#b9a7c29a8bae38a28a3d6ab910da11290addcc58"
+  integrity sha512-ThgFJQTWYKRClTV2Zg0wBRqfy0EGz3U4NOey7jwncUjSjx5+o9nXbfQAYWDKQFfWyE+wnrBTYfddEP9pHNX5cQ==
+  dependencies:
+    "@tiptap/extension-bubble-menu" "^2.3.0"
+    "@tiptap/extension-floating-menu" "^2.3.0"
+
+"@troop.com/tiptap-react-render@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@troop.com/tiptap-react-render/-/tiptap-react-render-0.0.2.tgz#bfc1241f55e3a3dfea296ab7d3121ff7bedf806e"
+  integrity sha512-+MHnLLChM63mduFxgaMv+rKd1FaN0WW+H9nYYA6EfDcXdildRGTujjNlG2Zndp67rHW/8h1mFo5XvM24oRXNag==
 
 "@types/json5@^0.0.29":
   version "0.0.29"
@@ -4028,6 +4060,13 @@ thenify-all@^1.0.0:
   dependencies:
     any-promise "^1.0.0"
 
+tippy.js@^6.3.7:
+  version "6.3.7"
+  resolved "https://registry.yarnpkg.com/tippy.js/-/tippy.js-6.3.7.tgz#8ccfb651d642010ed9a32ff29b0e9e19c5b8c61c"
+  integrity sha512-E1d3oP2emgJ9dRQZdf3Kkn0qJgI6ZLpyS5z6ZkY1DF3kaQaBsGZsndEpHwx+eC+tYM41HaSNvNtLx8tU57FzTQ==
+  dependencies:
+    "@popperjs/core" "^2.9.0"
+
 to-fast-properties@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/to-fast-properties/-/to-fast-properties-2.0.0.tgz#dc5e698cbd079265bc73e0377681a4e4e83f616e"
@@ -4168,6 +4207,11 @@ unicode-property-aliases-ecmascript@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/unicode-property-aliases-ecmascript/-/unicode-property-aliases-ecmascript-2.1.0.tgz#43d41e3be698bd493ef911077c9b131f827e8ccd"
   integrity sha512-6t3foTQI9qne+OZoVQB/8x8rk2k1eVy1gRXhV3oFQ5T6R1dqQ1xtin3XqSlx3+ATBkliTaR/hHyJBm+LVPNM8w==
+
+unique-username-generator@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/unique-username-generator/-/unique-username-generator-1.3.0.tgz#f1da1977fcd4d9f2297795960a0cff6bbda87601"
+  integrity sha512-oPs+Jq9UlXmcrpzrpYvWOWVUVLkJ0/x8zM66ikWEBe1l/hBqXS5fofsDvdScLIlPtqQKlu8/Y91b6T2XtIFubQ==
 
 update-browserslist-db@^1.0.13:
   version "1.0.13"
