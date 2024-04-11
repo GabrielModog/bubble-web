@@ -24,7 +24,7 @@ export async function createBubble(prevState: unknown, formData: FormData) {
       },
     });
 
-    return redirect(`/r/${data.name}`);
+    return redirect(`/b/${data.name}`);
   } catch (error) {
     if (error instanceof Prisma.PrismaClientKnownRequestError) {
       if (error.code === "P2002") {
@@ -38,7 +38,7 @@ export async function createBubble(prevState: unknown, formData: FormData) {
   }
 }
 
-export async function updateSubDescription(
+export async function updateBubbleDescription(
   prevState: unknown,
   formData: FormData
 ) {

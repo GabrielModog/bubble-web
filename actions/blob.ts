@@ -35,5 +35,5 @@ export async function createBlob(
     },
   });
 
-  return redirect(`/r/${bubbleName}`);
+  return redirect(`/b/${bubbleName}`);
 }
