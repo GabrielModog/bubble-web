@@ -2,15 +2,16 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { ChangeEvent, useState } from "react";
+import { useState } from "react";
 import { JSONContent } from "@tiptap/react";
+import { Text, Video } from "lucide-react";
 
 import { Card, CardFooter, CardHeader } from "@/components/ui/card";
 
-import pfp from "../../../../public/pfp.png";
+import pfp from "../../../../public/bubble-logo.svg";
+
 import { Separator } from "@/components/ui/separator";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Text, Video } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { BlobContentEditor } from "@/components/blob/BlobContentEditor";

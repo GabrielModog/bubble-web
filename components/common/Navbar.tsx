@@ -6,8 +6,8 @@ import {
 import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server";
 import Image from "next/image";
 
-import BubbleTextImage from "../public/bubble-logotipo.svg";
-import BubbleMobileImage from "../public/bubble-logo.svg";
+import BubbleTextImage from "../../public/bubble-logotipo.svg";
+import BubbleMobileImage from "../../public/bubble-logo.svg";
 
 import { Button } from "../ui/button";
 import { ThemeToggle } from "../theme/ThemeToggle";
