@@ -13,13 +13,13 @@ interface BlobCardProps {
   title: string;
   textContent: any;
   username: string | null;
-  subname: string | null;
+  bubbleName: string | null;
   imageUrl: string | null;
   voteCount: number;
 }
 
 export function BlobCard(props: BlobCardProps) {
-  const { title, imageUrl, username, subname, id, voteCount, textContent } =
+  const { title, imageUrl, username, bubbleName, id, voteCount, textContent } =
     props;
   return (
     <Card className="flex relative overflow-hidden">
@@ -39,7 +39,7 @@ export function BlobCard(props: BlobCardProps) {
       <div>
         <div className="flex items-center p-2 gap-x-2">
           <Link href="/" className="font-semibold text-xs">
-            r/{subname}
+            b/{bubbleName}
           </Link>
           <p className="font-semibold text-xs text-muted-foreground">
             Post by {username}

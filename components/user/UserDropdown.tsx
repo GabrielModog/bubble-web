@@ -34,7 +34,7 @@ export function UserDropdown(props: UserDropdownProps) {
 
       <DropdownMenuContent align="end" className="w-[200px]">
         <DropdownMenuItem>
-          <Link href="/r/create">Create a Bubble</Link>
+          <Link href="/b/create">Create a Bubble</Link>
         </DropdownMenuItem>
         <DropdownMenuItem>
           <Link href="/create">Create Blob</Link>

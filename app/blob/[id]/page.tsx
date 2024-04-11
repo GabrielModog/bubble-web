@@ -126,8 +126,8 @@ export default async function BlobRoute(props: BlobRouteProps) {
                 height={64}
                 className="rounded-full"
               />
-              <Link href={`/r/${data?.bubbleName}`} className="font-medium">
-                <span className="text-2xl">r/{data?.bubbleName}</span>
+              <Link href={`/b/${data?.bubbleName}`} className="font-medium">
+                <span className="text-2xl">b/{data?.bubbleName}</span>
               </Link>
             </div>
             <div className="mt-2">
