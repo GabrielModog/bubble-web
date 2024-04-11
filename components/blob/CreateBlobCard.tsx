@@ -3,7 +3,7 @@ import { ImageUp } from "lucide-react";
 
 import { Card } from "@/components/ui/card";
 
-import pfp from "../public/pfp.png";
+import pfp from "../../public/bubble-logo.svg";
 import Link from "next/link";
 
 export function CreateBlobCard() {
